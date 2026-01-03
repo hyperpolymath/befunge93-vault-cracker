@@ -1,0 +1,147 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+= Befunge-93 Reference
+:toc:
+
+== What is Befunge-93?
+
+**Befunge-93** is an esoteric programming language created by Chris Pressey in 1993. It was designed to be as difficult to compile as possible.
+
+== Key Characteristics
+
+=== 2D Execution
+
+Unlike traditional languages where code executes line by line, Befunge executes on a 2D grid. The program counter (PC) can move in four directions:
+
+[source]
+----
+    ^
+    |
+<-- PC -->
+    |
+    v
+----
+
+Direction commands:
+- `>` - Move right
+- `<` - Move left
+- `^` - Move up
+- `v` - Move down
+
+=== The Playfield
+
+The playfield is exactly 80 columns by 25 rows (classic terminal dimensions). Code wraps around edges.
+
+[source]
+----
++------------------80 columns------------------+
+|                                              |
+|    v < Your code lives here > ^              |
+|                                              |
+25 rows                                        |
+|                                              |
++----------------------------------------------+
+----
+
+=== Stack-Based
+
+All operations work on a LIFO (Last In, First Out) stack:
+
+[source]
+----
+Push 3:     [] -> [3]
+Push 5:     [3] -> [3, 5]
+Add:        [3, 5] -> [8]
+----
+
+=== Self-Modifying
+
+The `p` (put) command can modify the playfield during execution. This makes Befunge extremely difficult to compile ahead of time.
+
+== Instruction Set
+
+=== Arithmetic
+
+[cols="1,3"]
+|===
+| Instruction | Description
+
+| `+` | Pop a and b, push a+b
+| `-` | Pop a and b, push b-a
+| `*` | Pop a and b, push a*b
+| `/` | Pop a and b, push b/a (integer division)
+| `%` | Pop a and b, push b%a (modulo)
+|===
+
+=== Stack Manipulation
+
+[cols="1,3"]
+|===
+| Instruction | Description
+
+| `0-9` | Push digit (0-9) onto stack
+| `:` | Duplicate top of stack
+| `\` | Swap top two values
+| `$` | Pop and discard top value
+|===
+
+=== I/O
+
+[cols="1,3"]
+|===
+| Instruction | Description
+
+| `.` | Pop and output as integer
+| `,` | Pop and output as ASCII character
+| `&` | Read integer from input
+| `~` | Read character from input
+|===
+
+=== Control Flow
+
+[cols="1,3"]
+|===
+| Instruction | Description
+
+| `>` | Move right
+| `<` | Move left
+| `^` | Move up
+| `v` | Move down
+| `?` | Move in random direction
+| `_` | Pop; if zero, go right; else go left
+| `\|` | Pop; if zero, go down; else go up
+| `#` | Skip next cell (trampoline)
+| `@` | End program
+|===
+
+=== Self-Modification
+
+[cols="1,3"]
+|===
+| Instruction | Description
+
+| `g` | Pop y and x, push value at (x,y)
+| `p` | Pop y, x, and v; write v at (x,y)
+|===
+
+== Example: Hello World
+
+[source]
+----
+>              v
+v  ,,,,,"Hello"<
+>48telerator*,v
+v,,,,,,"World!"<
+>25telerator*,@
+----
+
+== Why Use Befunge-93 in This Project?
+
+This project uses Befunge-93 **purely as a satirical element**. The decorative "Befunge underpinning" ASCII art represents the absurdity of claiming a 1993 esoteric language could defeat modern cryptography.
+
+No actual Befunge code is interpreted or executed.
+
+== Resources
+
+* https://esolangs.org/wiki/Befunge[Befunge on Esolang Wiki]
+* https://catseye.tc/node/Befunge-93.html[Catseye Befunge-93]
+* https://github.com/catseye/Befunge-93[Befunge-93 Reference Implementation]

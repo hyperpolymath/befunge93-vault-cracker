@@ -1,0 +1,17 @@
+{
+  "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
+  "name": "@hyperpolymath/befunge93-vault-cracker",
+  "version": "1.0.0",
+  "tasks": {
+    "serve": "deno run --allow-net --allow-read jsr:@std/http/file-server .",
+    "check": "deno lint && deno fmt --check",
+    "fmt": "deno fmt"
+  },
+  "lint": {
+    "exclude": ["*.res"]
+  },
+  "fmt": {
+    "exclude": ["*.res"],
+    "lineWidth": 100
+  }
+}

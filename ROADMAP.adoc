@@ -1,22 +1,50 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
-= Rsr Template Repo Roadmap
+= Befunge-93 Vault Cracker Roadmap
+:toc:
 
 == Current Status
 
-Initial development phase.
+**v1.0.0** - Core parody UI complete and functional.
 
-== Milestones
+== Completed
 
-=== v0.1.0 - Foundation
-* [ ] Core functionality
-* [ ] Basic documentation
-* [ ] CI/CD pipeline
+=== v1.0.0 - Initial Release
 
-=== v1.0.0 - Stable Release
-* [ ] Full feature set
-* [ ] Comprehensive tests
-* [ ] Production ready
+* [x] Core vault cracker UI with TEA pattern
+* [x] Six satirical security layers
+* [x] Animated "attack" with tech babble
+* [x] Befunge-93 decorative grid
+* [x] Telemetry and About panels
+* [x] CSS-first styling (inline, no dependencies)
+* [x] ErrorBoundary for fault tolerance
+* [x] Self-check assertions (no smart quotes, etc.)
 
 == Future Directions
 
-_To be determined based on community feedback._
+=== v1.1.0 - Enhanced Visuals
+
+* [ ] Add ASCII art Befunge-93 logo
+* [ ] Animate the Befunge grid during attacks
+* [ ] Add sound effects (optional, muted by default)
+* [ ] More satirical log messages
+
+=== v1.2.0 - Interactive Features
+
+* [ ] Allow users to input custom "vault configurations"
+* [ ] Export attack logs as shareable images
+* [ ] Keyboard shortcuts for controls
+
+=== v2.0.0 - Befunge Interpreter
+
+* [ ] Actually parse and execute Befunge-93 code (for educational purposes)
+* [ ] Visualize execution on the 2D grid
+* [ ] Step-through debugger
+
+== Non-Goals
+
+Things we explicitly will NOT do:
+
+* Make this a real security tool
+* Add actual cryptographic functionality
+* Support mobile apps (web-only)
+* Add analytics or tracking

@@ -1,36 +1,39 @@
-= RSR-template-repo - Citation Guide
+// SPDX-License-Identifier: AGPL-3.0-or-later
+= Befunge-93 Vault Cracker - Citation Guide
 :toc:
 
 == BibTeX
 
 [source,bibtex]
 ----
-@software{rsr-template-repo_2025,
+@software{befunge93_vault_cracker_2025,
   author = {Polymath, Hyper},
-  title = {RSR-template-repo},
+  title = {Befunge-93 Vault Cracker},
+  subtitle = {A satirical UI demonstrating esoteric programming absurdity},
   year = {2025},
-  url = {https://github.com/hyperpolymath/RSR-template-repo},
-  license = {AGPL-3.0-or-later}
+  url = {https://github.com/hyperpolymath/befunge93-vault-cracker},
+  license = {AGPL-3.0-or-later},
+  keywords = {befunge, esoteric, parody, rescript, tea}
 }
 ----
 
 == Harvard Style
 
-Polymath, H. (2025) _RSR-template-repo_ [Computer software]. Available at: https://github.com/hyperpolymath/RSR-template-repo
+Polymath, H. (2025) _Befunge-93 Vault Cracker_ [Computer software]. Available at: https://github.com/hyperpolymath/befunge93-vault-cracker
 
 == OSCOLA
 
-Hyper Polymath, 'RSR-template-repo' (2025) <https://github.com/hyperpolymath/RSR-template-repo>
+Hyper Polymath, 'Befunge-93 Vault Cracker' (2025) <https://github.com/hyperpolymath/befunge93-vault-cracker>
 
 == MLA
 
-Polymath, Hyper. "RSR-template-repo." 2025, github.com/hyperpolymath/RSR-template-repo.
+Polymath, Hyper. "Befunge-93 Vault Cracker." 2025, github.com/hyperpolymath/befunge93-vault-cracker.
 
 == APA 7
 
-Polymath, H. (2025). _RSR-template-repo_ [Computer software]. GitHub. https://github.com/hyperpolymath/RSR-template-repo
+Polymath, H. (2025). _Befunge-93 Vault Cracker_ [Computer software]. GitHub. https://github.com/hyperpolymath/befunge93-vault-cracker
 
 == See Also
 
-* link:../CITATION.cff[CITATION.cff]
-* link:../codemeta.json[codemeta.json]
+* link:../CITATION.cff[CITATION.cff] (if present)
+* link:reference/Befunge93.adoc[Befunge-93 Reference]
