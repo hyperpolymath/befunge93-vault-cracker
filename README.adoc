@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: AGPL-3.0-or-later
+// SPDX-License-Identifier: PMPL-1.0-or-later
 = Befunge-93 Vault Cracker
 :toc:
 :toclevels: 3
@@ -176,7 +176,7 @@ See link:CONTRIBUTING.adoc[CONTRIBUTING.adoc] for guidelines.
 
 == License
 
-AGPL-3.0-or-later
+PMPL-1.0-or-later
 
 == See Also
 
