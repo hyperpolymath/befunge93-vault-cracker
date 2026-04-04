@@ -1,0 +1,39 @@
+// SPDX-License-Identifier: PMPL-1.0-or-later
+= Befunge-93 Vault Cracker - Citation Guide
+:toc:
+
+== BibTeX
+
+[source,bibtex]
+----
+@software{befunge93_vault_cracker_2025,
+  author = {Polymath, Hyper},
+  title = {Befunge-93 Vault Cracker},
+  subtitle = {A satirical UI demonstrating esoteric programming absurdity},
+  year = {2025},
+  url = {https://github.com/hyperpolymath/befunge93-vault-cracker},
+  license = {PMPL-1.0-or-later},
+  keywords = {befunge, esoteric, parody, rescript, tea}
+}
+----
+
+== Harvard Style
+
+Polymath, H. (2025) _Befunge-93 Vault Cracker_ [Computer software]. Available at: https://github.com/hyperpolymath/befunge93-vault-cracker
+
+== OSCOLA
+
+Hyper Polymath, 'Befunge-93 Vault Cracker' (2025) <https://github.com/hyperpolymath/befunge93-vault-cracker>
+
+== MLA
+
+Polymath, Hyper. "Befunge-93 Vault Cracker." 2025, github.com/hyperpolymath/befunge93-vault-cracker.
+
+== APA 7
+
+Polymath, H. (2025). _Befunge-93 Vault Cracker_ [Computer software]. GitHub. https://github.com/hyperpolymath/befunge93-vault-cracker
+
+== See Also
+
+* link:../CITATION.cff[CITATION.cff] (if present)
+* link:reference/Befunge93.adoc[Befunge-93 Reference]

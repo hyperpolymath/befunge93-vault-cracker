@@ -1,0 +1,50 @@
+// SPDX-License-Identifier: PMPL-1.0-or-later
+= Befunge-93 Vault Cracker Roadmap
+:toc:
+
+== Current Status
+
+**v1.0.0** - Core parody UI complete and functional.
+
+== Completed
+
+=== v1.0.0 - Initial Release
+
+* [x] Core vault cracker UI with TEA pattern
+* [x] Six satirical security layers
+* [x] Animated "attack" with tech babble
+* [x] Befunge-93 decorative grid
+* [x] Telemetry and About panels
+* [x] CSS-first styling (inline, no dependencies)
+* [x] ErrorBoundary for fault tolerance
+* [x] Self-check assertions (no smart quotes, etc.)
+
+== Future Directions
+
+=== v1.1.0 - Enhanced Visuals
+
+* [ ] Add ASCII art Befunge-93 logo
+* [ ] Animate the Befunge grid during attacks
+* [ ] Add sound effects (optional, muted by default)
+* [ ] More satirical log messages
+
+=== v1.2.0 - Interactive Features
+
+* [ ] Allow users to input custom "vault configurations"
+* [ ] Export attack logs as shareable images
+* [ ] Keyboard shortcuts for controls
+
+=== v2.0.0 - Befunge Interpreter
+
+* [ ] Actually parse and execute Befunge-93 code (for educational purposes)
+* [ ] Visualize execution on the 2D grid
+* [ ] Step-through debugger
+
+== Non-Goals
+
+Things we explicitly will NOT do:
+
+* Make this a real security tool
+* Add actual cryptographic functionality
+* Support mobile apps (web-only)
+* Add analytics or tracking
