@@ -1,0 +1,101 @@
+// SPDX-License-Identifier: PMPL-1.0-or-later
+// SPDX-FileCopyrightText: 2026 Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
+= Befunge-93 Vault Cracker — EXPLAINME
+:toc: preamble
+:icons: font
+
+This file maps README.adoc claims to their implementation evidence for
+sceptical developers.
+
+== "A satirical UI that demonstrates esoteric programming absurdity vs. overengineered security theater"
+
+[quote, README.adoc]
+____
+Befunge-93 Vault Cracker is a parody application that simulates an imaginary
+"attack" on an overengineered cryptographic vault using the power of Befunge-93.
+____
+
+How this is implemented::
+The single source file link:src/Bf93-vault-cracker.res[`src/Bf93-vault-cracker.res`]
+is a React component written in JavaScript (with a `.res` extension as a parody
+of ReScript). It implements The Elm Architecture (TEA) pattern: a `Model`,
+`update` function, and `View`. The vault stack is a static array of six
+fictional security layers (Ed448, SHAKE3-256, BLAKE3, Kyber-1024, Argon2id,
+MFA). Each "crack" step removes one layer from the array and appends an absurd
+log message to the attack console. No cryptography is implemented or executed.
+
+Caveat::
+The `.res` extension is deliberately misleading parody — the file is plain
+JavaScript/JSX, not ReScript. The Befunge-93 grid displayed is ASCII art with
+no interpreter behind it.
+
+== "A TEA (The Elm Architecture) demonstration in JavaScript/React"
+
+[quote, README.adoc]
+____
+A CSS-first, dependency-free single-file component.
+____
+
+How this is implemented::
+The component loads React via CDN (`<script src="https://unpkg.com/react/...">`)
+with no npm, no `node_modules`, no build step. The TEA model is: `model` holds
+`{ vault, log, telemetry }`, `update(msg, model)` returns a new model, and
+`view(model)` renders JSX. The `serve` justfile recipe starts a Deno static
+file server — the only runtime dependency.
+
+Caveat::
+Using React via CDN is not the preferred hyperpolymath approach (ReScript is
+standard) — this is intentional parody of overengineered setups. A production
+hyperpolymath app would use ReScript compiled output.
+
+== "Built for screenshots and laughs, not actual security research"
+
+[quote, README.adoc]
+____
+Fake metrics (Entropy, Latency, Vibes)
+____
+
+How this is implemented::
+The `telemetry` model fields are incremented with `Math.random()` multipliers
+on each crack step. "Entropy" increases, "Latency" wobbles, "Vibes" are
+tracked as a metric. The values have no external meaning.
+
+Caveat::
+None. The metrics are exactly as meaningful as advertised.
+
+== Dogfooded Across The Account
+
+[cols="1,2,2", options="header"]
+|===
+| Technology / Pattern | Used here | Also used in
+
+| TEA (Elm Architecture) pattern
+| State management for the vault animation
+| link:https://github.com/hyperpolymath/gossamer[gossamer] (window management),
+  link:https://github.com/hyperpolymath/panll[panll] (panel state)
+
+| Deno static server
+| `just serve` development server
+| link:https://github.com/hyperpolymath/k9-showcase[k9-showcase],
+  link:https://github.com/hyperpolymath/a2ml-showcase[a2ml-showcase]
+
+| Justfile recipes
+| `serve`, `check`
+| Every hyperpolymath repo
+
+| SPDX licence headers
+| `// SPDX-License-Identifier: PMPL-1.0-or-later`
+| All hyperpolymath source files
+|===
+
+== Known Gaps
+
+[CAUTION]
+====
+The source file uses a `.res` extension but is plain JavaScript/JSX — the
+README documents this as intentional parody, but it will confuse ReScript
+tooling that scans for `.res` files.
+====
+
+No other known gaps. The project delivers exactly what it promises: screenshots
+and laughs.
