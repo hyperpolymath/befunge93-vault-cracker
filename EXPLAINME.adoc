@@ -40,7 +40,7 @@ How this is implemented::
 The component loads React via CDN (`<script src="https://unpkg.com/react/...">`)
 with no npm, no `node_modules`, no build step. The TEA model is: `model` holds
 `{ vault, log, telemetry }`, `update(msg, model)` returns a new model, and
-`view(model)` renders JSX. The `serve` justfile recipe starts a Deno static
+`view(model)` renders JSX. The `serve` Justfile recipe starts a Deno static
 file server — the only runtime dependency.
 
 Caveat::

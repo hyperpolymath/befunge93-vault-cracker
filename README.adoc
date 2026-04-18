@@ -87,7 +87,7 @@ befunge93-vault-cracker/
 │   └── CITATIONS.adoc           # Citation formats
 ├── .github/workflows/           # CI/CD workflows
 ├── .machine_readable/           # SCM metadata files
-├── justfile                     # Build commands
+├── Justfile                     # Build commands
 └── README.adoc                  # This file
 ----
 
