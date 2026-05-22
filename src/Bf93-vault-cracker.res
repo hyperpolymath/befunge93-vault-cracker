@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: PMPL-1.0-or-later
+// SPDX-License-Identifier: MPL-2.0
 import React, { useEffect, useMemo, useReducer, useRef } from "react";
 
 // If you do not see this string rendered in the UI, you are not running this source.

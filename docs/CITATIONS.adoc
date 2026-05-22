@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: PMPL-1.0-or-later
+// SPDX-License-Identifier: MPL-2.0
 = Befunge-93 Vault Cracker - Citation Guide
 :toc:
 
@@ -12,7 +12,7 @@
   subtitle = {A satirical UI demonstrating esoteric programming absurdity},
   year = {2025},
   url = {https://github.com/hyperpolymath/befunge93-vault-cracker},
-  license = {PMPL-1.0-or-later},
+  license = {MPL-2.0},
   keywords = {befunge, esoteric, parody, rescript, tea}
 }
 ----

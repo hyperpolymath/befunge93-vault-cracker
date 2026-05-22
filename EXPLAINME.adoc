@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: PMPL-1.0-or-later
+// SPDX-License-Identifier: MPL-2.0
 // SPDX-FileCopyrightText: 2026 Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
 = Befunge-93 Vault Cracker — EXPLAINME
 :toc: preamble
@@ -84,7 +84,7 @@ None. The metrics are exactly as meaningful as advertised.
 | Every hyperpolymath repo
 
 | SPDX licence headers
-| `// SPDX-License-Identifier: PMPL-1.0-or-later`
+| `// SPDX-License-Identifier: MPL-2.0`
 | All hyperpolymath source files
 |===
 
