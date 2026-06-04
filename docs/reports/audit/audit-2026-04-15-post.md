@@ -1,3 +1,7 @@
+<!--
+SPDX-License-Identifier: MPL-2.0
+Copyright (c) Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
+-->
 # Post-audit Status Report: befunge93-vault-cracker
 - **Date:** 2026-04-15
 - **Status:** Complete (M5 Sweep)
@@ -10,7 +14,7 @@
 4. Static Analysis: Verified with `panic-attack assail`.
 
 ## Findings Summary
-- 14 TODO/FIXME/HACK markers in contractiles/k9/template-hunt.k9.ncl
+- 14 TODO/FIXME/HACK markers in contractiles/self-validating/template-hunt.k9.ncl
 - 1 import map entry/ies in deno.json without a version pin — specifiers are not reproducibly resolved
 
 ## Final Grade

@@ -18,7 +18,7 @@ test-zig:
 
 # T3: typecheck the k9 contractile with nickel
 test-nickel:
-    nickel typecheck contractiles/k9/template-yard.k9.ncl 2>/dev/null || echo "SKIP: nickel not installed"
+    nickel typecheck contractiles/self-validating/template-yard.k9.ncl 2>/dev/null || echo "SKIP: nickel not installed"
 
 # T4: SPDX header check on all .res source files
 test-lint:

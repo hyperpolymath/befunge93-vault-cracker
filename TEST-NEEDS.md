@@ -1,6 +1,8 @@
+<!--
+SPDX-License-Identifier: MPL-2.0
+Copyright (c) Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
+-->
 # TEST-NEEDS.md — CRG Grade B Test Suite
-
-<!-- SPDX-License-Identifier: MPL-2.0 -->
 
 This document records the six independently runnable test targets required for
 CRG Grade B compliance.
@@ -16,7 +18,7 @@ a clear pass/fail result via a Justfile recipe.
 |--------|--------|---------------|-------------|
 | T1 | `just test-zig` | `zig test ffi/zig/test/integration_test.zig` | FFI integration test |
 | T2 | `just test-structure` | `bash tests/validate_structure.sh` | Required files/directories present |
-| T3 | `just test-nickel` | `nickel typecheck contractiles/k9/template-yard.k9.ncl` | K9 contractile type-checks |
+| T3 | `just test-nickel` | `nickel typecheck contractiles/self-validating/template-yard.k9.ncl` | K9 contractile type-checks |
 | T4 | `just test-lint` | `bash tests/validate_sources.sh` | All .res files have SPDX headers |
 | T5 | `just test-examples` | `bash tests/validate_examples.sh` | examples/ directory has content |
 | T6 | `just test-ffi` | `bash tests/validate_ffi.sh` | ffi/zig/ structure complete |
