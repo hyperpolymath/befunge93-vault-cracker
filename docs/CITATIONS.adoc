@@ -14,7 +14,7 @@
   year = {2025},
   url = {https://github.com/hyperpolymath/befunge93-vault-cracker},
   license = {MPL-2.0},
-  keywords = {befunge, esoteric, parody, rescript, tea}
+  keywords = {befunge, esoteric, parody, affinescript, tea}
 }
 ----
 
