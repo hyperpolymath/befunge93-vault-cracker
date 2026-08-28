@@ -19,7 +19,7 @@ ____
 How this is implemented::
 The single source file link:src/Bf93-vault-cracker.res[`src/Bf93-vault-cracker.res`]
 is a React component written in JavaScript (with a `.res` extension as a parody
-of ReScript). It implements The Elm Architecture (TEA) pattern: a `Model`,
+of AffineScript). It implements The Elm Architecture (TEA) pattern: a `Model`,
 `update` function, and `View`. The vault stack is a static array of six
 fictional security layers (Ed448, SHAKE3-256, BLAKE3, Kyber-1024, Argon2id,
 MFA). Each "crack" step removes one layer from the array and appends an absurd
@@ -27,7 +27,7 @@ log message to the attack console. No cryptography is implemented or executed.
 
 Caveat::
 The `.res` extension is deliberately misleading parody — the file is plain
-JavaScript/JSX, not ReScript. The Befunge-93 grid displayed is ASCII art with
+JavaScript/JSX, not AffineScript. The Befunge-93 grid displayed is ASCII art with
 no interpreter behind it.
 
 == "A TEA (The Elm Architecture) demonstration in JavaScript/React"
@@ -45,9 +45,9 @@ with no npm, no `node_modules`, no build step. The TEA model is: `model` holds
 file server — the only runtime dependency.
 
 Caveat::
-Using React via CDN is not the preferred hyperpolymath approach (ReScript is
+Using React via CDN is not the preferred hyperpolymath approach (AffineScript is
 standard) — this is intentional parody of overengineered setups. A production
-hyperpolymath app would use ReScript compiled output.
+hyperpolymath app would use AffineScript compiled output.
 
 == "Built for screenshots and laughs, not actual security research"
 
@@ -94,7 +94,7 @@ None. The metrics are exactly as meaningful as advertised.
 [CAUTION]
 ====
 The source file uses a `.res` extension but is plain JavaScript/JSX — the
-README documents this as intentional parody, but it will confuse ReScript
+README documents this as intentional parody, but it will confuse AffineScript
 tooling that scans for `.res` files.
 ====
 

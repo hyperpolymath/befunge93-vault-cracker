@@ -165,7 +165,7 @@ If any error occurs, the UI recovers gracefully and displays an error message.
 
 == Why TEA in JavaScript?
 
-While TEA is native to Elm and commonly used with ReScript, this project demonstrates that the pattern works beautifully in vanilla JavaScript with React's `useReducer` hook. The core principles remain:
+While TEA is native to Elm and commonly used with AffineScript, this project demonstrates that the pattern works beautifully in vanilla JavaScript with React's `useReducer` hook. The core principles remain:
 
 * **Single source of truth**: One model object holds all state
 * **Unidirectional data flow**: View -> Action -> Reducer -> New Model -> View
