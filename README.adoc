@@ -175,7 +175,7 @@ Yes! This was designed to be screenshot-friendly and visually entertaining for t
 
 == Contributing
 
-See link:CONTRIBUTING.adoc[CONTRIBUTING.adoc] for guidelines.
+See link:.github/CONTRIBUTING.md[.github/CONTRIBUTING.md] for guidelines.
 
 == License
 
